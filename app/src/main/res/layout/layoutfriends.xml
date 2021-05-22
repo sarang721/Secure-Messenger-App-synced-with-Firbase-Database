@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="20sp"
+    android:orientation="horizontal"
+    android:padding="11sp"
+    android:layout_marginLeft="10sp"
+
+    >
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="91dp"
+        android:src="@drawable/download">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/nameoffriend"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="23sp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>

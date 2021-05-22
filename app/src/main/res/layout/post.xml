@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="20sp"
+    android:orientation="horizontal"
+    android:padding="11sp"
+    android:layout_marginLeft="10sp"
+
+    >
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/download">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="311dp"
+        android:layout_height="121dp"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:id="@+id/nameoffriend"
+            android:layout_width="249dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20sp"
+            android:text="NAME"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/username1"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="USERNAME"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+
+            >
+
+            <Button
+                android:id="@+id/requestaccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:textSize="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="@android:color/holo_green_dark"
+                android:visibility="invisible"
+                >
+
+                </Button>
+
+            <Button
+                android:id="@+id/requestcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reject"
+                android:layout_marginLeft="30sp"
+                android:background="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                >
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
